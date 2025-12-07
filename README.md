@@ -26,3 +26,32 @@ c. Mode Switching & Visual Feedback
 	•	Mode switching performed through a special gesture (Holding hand steady for 4 seconds).
 	•	LED or RGB indicators show:
 	•	Active Mode
+
+
+
+2. Proteus-Based Smart Home Automation Simulation
+This project simulates a basic smart home automation system using Proteus and a microcontroller (Arduino/PIC). The system automatically controls household appliances—such as lights, fans, and motors—based on real-time sensor inputs. The goal is to demonstrate automation logic, proper circuit design, and sensor-driven decision-making in a virtual environment.
+
+The simulation integrates essential components like LDR and temperature sensors, relays, and electrical loads, providing a complete demonstration of automated home control within Proteus.
+
+
+
+Project Overview:
+The smart home system monitors environmental conditions using sensors and activates appliances accordingly. An LDR controls lighting based on ambient brightness, while a temperature sensor regulates a fan or heater. The circuit is designed with correct wiring, relay interfacing, and microcontroller logic to mimic a realistic home automation setup.
+
+Key Features:
+a. Circuit Design & Layout:
+	•	Arduino/PIC microcontroller
+	•	Relays for load switching
+	•	LDR and temperature sensor
+	•	Household loads including bulb, motor, and fan
+	•	Neat and accurate wiring with proper component placement for easy debugging and simulation.
+
+b. Sensor Integration
+	•	LDR-based light automation: Automatically turns lights ON/OFF depending on ambient light intensity.
+	•	Temperature sensor integration: Controls fan or heater based on user-defined threshold temperatures.
+
+c. Automation Logic
+	•	Embedded control code monitors sensor readings and activates loads automatically.
+	•	Threshold-based decision-making implements realistic home automation behaviour.
+	•	Includes optional manual control inputs such as switches or keypad buttons for overriding automatic behaviour.
