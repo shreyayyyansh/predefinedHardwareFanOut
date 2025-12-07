@@ -1,4 +1,4 @@
-Gesture-Controlled Media Remote Using Ultrasonic Sensors
+1. Gesture-Controlled Media Remote Using Ultrasonic Sensors
 
 This project implements a gesture-based media control system using an ESP8266 microcontroller and ultrasonic distance sensors. The system allows users to control media playback—such as play/pause, switching tracks, and adjusting volume—through simple and intuitive hand gestures, eliminating the need for physical buttons.
 
@@ -10,16 +10,16 @@ The system uses one or two ultrasonic sensors to measure hand proximity and move
 Two operational modes—Media Mode and Volume Mode—allow a broader set of controls within a simple interface. An LED or RGB indicator provides real-time feedback on the active mode and detected gestures.
 
 Key Features:
-1. Gesture Sensing
+a. Gesture Sensing
 	•	Interfaces ultrasonic sensor(s) to accurately measure hand distance.
 	•	Implements filtering/averaging algorithms to reduce noise and ensure stable readings.
 
-2. Detects gestures such as:
+b. Detects gestures such as:
 	•	Play / Pause (Holding hand steady for 2 seconds)
 	•	Next Track / Previous Track (Swipe Left / Swipe Right)
 	•	Volume Up / Volume Down (Swipe Left and hold / Swipe Right and hold)
 
-3. Mode Switching & Visual Feedback
+c. Mode Switching & Visual Feedback
 	•	Supports two modes:
 	•	Media Mode (playback controls)
 	•	Volume Mode (volume adjustments)
