@@ -10,6 +10,7 @@ The system uses one or two ultrasonic sensors to measure hand proximity and move
 Two operational modes—Media Mode and Volume Mode—allow a broader set of controls within a simple interface. An LED or RGB indicator provides real-time feedback on the active mode and detected gestures.
 
 Key Features:
+
 a. Gesture Sensing
 	•	Interfaces ultrasonic sensor(s) to accurately measure hand distance.
 	•	Implements filtering/averaging algorithms to reduce noise and ensure stable readings.
